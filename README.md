@@ -8,9 +8,21 @@ as it provides an in-search feature for providing the last available online cour
 
 ---
 
+### Purpose
+Course aggregator was first based on the content aggregator which, could minimize the search of courses through the web. As it can be sometimes time-taken to look for the right course for which to invest time and money, the software break down the common search scheme.
+
+---
+
+### How it works?
+Through a large scrape from the edX APIs using ```getcourses.py```, ```project.py``` using the keyword given by the user, filters out all the information and return the course that best matches.
+
+---
+
 ### Development
-```getcourses.py```: Generates all the ids and courses URLs
-```project.py``` : Runs the searcher according to the ```csv``` files
+- ```getcourses.py```: Generates all the ids and courses URLs
+- ```project.py``` : Runs the searcher according to the ```csv``` files
+- ```test.py``` : Tests the main functions in the project, running that functions the project must go without troubles.
+- ```csv``` files: Each files contains the required data from where to filter the courses on ```project.py```
 
 ---
 
@@ -21,6 +33,7 @@ as it provides an in-search feature for providing the last available online cour
 ---
 
 ### Usage
-The default platform is edX. You are free to add new ones as Coursera, Udemy, etc. Otherwise, run ```project.py``` and search out the course you are interested in.
+The default platform is edX. You are free to add new ones as [Coursera](https://www.coursera.org/), [Udemy](https://www.udemy.com/), etc. Otherwise, run ```project.py``` and search out the course you are interested in.
 For adding new data is needed to run first, ```getcourses.py``` and use the appropiate APIs.
 
+The project requires the ```coursesinfo.csv``` and ```idlist.csv``` as needed for running the content scrapper.
