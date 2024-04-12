@@ -28,7 +28,8 @@ Through a large scrape from the edX APIs using ```getcourses.py```, ```project.p
 
 ### Installation
 1. Install all the pip-installable libraries in the ```requirements.txt```
-2. Run ```project.py```
+2. Download each of the csv files containing all the courses data
+3. Download ```getcourses.py``` and ```project.py``` as part of the software functionality
 
 ---
 
@@ -37,3 +38,8 @@ The default platform is edX. You are free to add new ones as [Coursera](https://
 For adding new data is needed to run first, ```getcourses.py``` and use the appropiate APIs.
 
 The project requires the ```coursesinfo.csv``` and ```idlist.csv``` as needed for running the content scrapper.
+
+Once opened the project, type ```python project.py```, as always, press enter and you should encounter a message prompt for typing a keyword or full name of the course of your interest. Right after hitting enter, a table will appear containing all the courses available with its URL, according to the input typed.
+
+Now, you can go ahead and look for the course of your need, copy the link and enroll as you find useful and interesting the road to learning.
+
