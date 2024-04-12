@@ -14,7 +14,7 @@ Course aggregator was first based on the content aggregator which, could minimiz
 ---
 
 ### How it works?
-Through a large scrape from the edX APIs using ```getcourses.py```, ```project.py``` using the keyword given by the user, filters out all the information and return the course that best matches.
+Through a large scrape from the edX APIs using ```getcourses.py```, ```project.py``` using the keyword given by the user, filters out all the information and it returns the course or couses that best matches, followed by its full title and URL to the web page.
 
 ---
 
