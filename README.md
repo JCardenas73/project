@@ -1,6 +1,6 @@
 # Course aggregator
 
-#### Video Demo on [YouTube](URL)
+#### Video Demo on [YouTube](https://youtu.be/3a0A-B64nNc)
 
 ### Description:
 With [**Course aggregator**](`#0969DA`) the user is able to look for different courses all over the web,
